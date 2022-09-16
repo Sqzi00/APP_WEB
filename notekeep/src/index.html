@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notatnik</title>
+</head>
+
+<body>
+  <main>
+    <label>Title note </label>
+    <input id="title" type="text">
+    <label>Description </label>
+    <textarea id="description" type="text" placeholder="text area"></textarea>
+    <select id="color">
+      <option value="coral">Coral</option>
+      <option value="white">White</option>
+      <option value="chartreuse">Chartreuse</option>
+      <option value="green">Green</option>
+      <option value="yellow">Yellow</option>
+      <option value="blue">Blue</option>
+      <option value="purple">Purple</option>
+      <option value="goldenrod">Golden</option>
+      <option value="green">Green</option>
+      <option value="cornflowerblue">Cornflowerblue</option>
+      <option value="darkmagenta">Darkmagenta</option>
+      <option value="fuchsia">Fuchsia</option>
+      <option value="olive">Olive</option>
+
+    </select>
+    <input id="addBtn" type="button" value="Add note">
+
+    <p class="headers">Pinned notes:</p>
+    <div id="pinnedNotes">
+    </div>
+
+    <p class="headers">Notes:</p>
+    <div id="notes">
+    </div>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
