@@ -1,0 +1,99 @@
+body{
+    background-color: #0f0f0f;
+}
+
+button:focus{
+    outline:0;
+}
+
+#soundBtns{
+    Margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#soundBtns button{
+    Margin: 15px;
+    background-color: grey;
+    width: 250px;
+    height: 250px;
+    background-color: #4281A4;
+    border-radius: 10px;
+    border-width: 0px;
+    cursor: pointer;
+}
+
+#soundBtns button:active, .activeBtn{
+    background-color: #87f089;
+}
+
+#soundBtns h2{
+    font-size: 30px;
+   
+}
+
+
+
+
+#rec {
+    background-color: #F0C987;
+}
+
+#pley{
+    background-color: #7954e7;  
+}
+
+.ChannelsManager{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.Channels{
+    width: 100%;
+    margin: 10px;
+    font-size: 23px;
+    color: #FFF;
+}
+
+.Channel{
+    margin: 2px;
+}
+
+.State{
+    background-color: #89BD9E;
+  
+    padding: 6px 50px;
+    margin: 0px 10px;
+    border-width: 0;
+}
+
+.RecordingStatus{
+    background-color: #F0C987;
+}
+
+#Stop{
+    background-color: #AC3931;
+    margin: 8px;
+    padding: 5px 8px;;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #AC3931;;
+    cursor: pointer;
+}
+
+#Stop:active{
+    border-width: 2px;
+    border-style: inset;
+    border-color: #343633;;
+    font-size: 15px;
+
+}
+
+.InActive{
+    display: none;
+}

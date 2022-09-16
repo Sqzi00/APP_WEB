@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css"/>
+    
+    <title>drumkit</title>
+</head>
+<body>
+    <div id="sounds">
+        <audio src="./sounds/kick.wav" data-key="Q" data-sound="kick"></audio>
+        <audio src="./sounds/boom.wav" data-key="W" data-sound="boom"></audio>
+        <audio src="./sounds/clap.wav" data-key="E" data-sound="clap"></audio>
+        <audio src="./sounds/hihat.wav" data-key="R" data-sound="hihat"></audio>
+        <audio src="./sounds/openhat.wav" data-key="T" data-sound="openhat"></audio>
+        <audio src="./sounds/ride.wav" data-key="A" data-sound="ride"></audio>
+        <audio src="./sounds/snare.wav" data-key="S" data-sound="snare"></audio>
+        <audio src="./sounds/tink.wav" data-key="D" data-sound="tink"></audio>
+        <audio src="./sounds/tom.wav" data-key="F" data-sound="tom"></audio>
+    </div>
+
+    <div id="soundBtns">
+    </div>
+
+    <div class="ChannelsManager">
+
+        <div class="Channels">
+            <div id="0" class="Channel">
+                Channel 1 -
+                <button id="rec" >Record</button>
+                <button id="pley" >Play</button>
+            </div>
+            <div id="1" class="Channel">
+                Channel 2   -
+                <button id="rec" >Record</button>
+                <button id="pley" >Play</button>
+            </div>
+            <div id="2" class="Channel">
+                Channel 3   -
+                <button id="rec" >Record</button>
+                <button id="pley" >Play</button>
+            </div>
+            <div id="3" class="Channel">
+                Channel 4   -
+                <button id="rec">Record</button>
+                <button id="pley" >Play</button>
+            </div>
+        </div>
+
+        <div class="StatusBar">
+            <div class="State">
+               Play
+            </div>
+            <button id="Stop" class="InActive">
+                Stop recording.
+            </button>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
